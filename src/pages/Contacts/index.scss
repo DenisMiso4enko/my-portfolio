@@ -1,0 +1,30 @@
+.contacts {
+  padding: 60px 0;
+  flex-grow: 1;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.info__item {
+  text-align: center;
+
+  a {
+    color: var(--color-purple);
+    font-size: 24px;
+  }
+
+
+}
+
+.info__title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}

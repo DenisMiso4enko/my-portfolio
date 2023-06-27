@@ -1,0 +1,22 @@
+.skills {
+  text-align: center;
+  padding: 80px 0;
+
+  &__title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  &__front:first-child {
+    margin-bottom: 40px;
+  }
+
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,18 @@
+.footer {
+  background: var(--color-black);
+  color: var(--color-white);
+  padding: 20px 0;
+
+  &__links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    a {
+      transition: color .2s ease;
+      &:hover {
+        color: var(--color-gray-secondary);
+      }
+    }
+  }
+}
