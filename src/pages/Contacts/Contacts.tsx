@@ -1,10 +1,16 @@
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 import "./index.scss";
 
 const Contacts = () => {
   const { t } = useTranslation("contacts");
   return (
-    <div className="contacts">
+    <motion.div
+      className="contacts"
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ x: window.innerWidth, transition: { duration: 0.2 } }}
+    >
       <div className="container">
         <h2 className="page-title">{t("страница контактов")}</h2>
         <div className="contacts__info">
@@ -26,7 +32,7 @@ const Contacts = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

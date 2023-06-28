@@ -17,9 +17,15 @@
   a {
     color: var(--color-purple);
     font-size: 24px;
+    text-decoration: underline;
+    @media (max-width: 800px) {
+      font-size: 18px;
+    }
   }
 
-
+  p {
+    font-size: 20px;
+  }
 }
 
 .info__title {
@@ -27,4 +33,7 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
+  @media (max-width: 800px) {
+    font-size: 30px;
+  }
 }

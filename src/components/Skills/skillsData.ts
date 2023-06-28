@@ -13,5 +13,5 @@ export const skillsData = {
     "TailwindCSS",
     "Bootstrap",
   ],
-  Backend: ["Node js", "Express js", "MongoDb"],
+  Backend: ["Node js", "Express js", "MongoDB"],
 };

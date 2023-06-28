@@ -1,8 +1,8 @@
-import "./index.scss";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
 import Git from "../../icons/Git";
 import Site from "../../icons/Site";
+import "./index.scss";
 
 interface ProjectCardProps {
   title: string;
@@ -11,6 +11,7 @@ interface ProjectCardProps {
   code: string;
   desc?: string;
 }
+
 const ProjectCard: FC<ProjectCardProps> = ({
   title,
   image,

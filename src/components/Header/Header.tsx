@@ -1,7 +1,7 @@
 import { LangSwitcher } from "../LangSwitcher/LangSwitcher";
 import Navbar from "../Navbar/Navbar";
-import "./index.scss";
 import { Link } from "react-router-dom";
+import "./index.scss";
 
 const Header = () => {
   return (

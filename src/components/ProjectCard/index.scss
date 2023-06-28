@@ -1,10 +1,16 @@
 .cards__item {
   width: 30%;
   border-radius: 8px;
-  box-shadow: 0 0 5px rgb(138, 135, 135);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  @media (max-width: 800px) {
+    width: 47%;
+  }
+  @media (max-width: 540px) {
+    width: 100%;
+  }
 
   .front {
     backface-visibility: hidden;

@@ -4,6 +4,9 @@ import dictionary from "./src/assets/dictinary.png";
 import jobs from "./src/assets/jobs.png";
 import tip from "./src/assets/tip-calculator.png";
 import todo from "./src/assets/todo.png";
+import pompeo from "./src/assets/pompeo.png";
+import flowbase from "./src/assets/flowbase.png";
+import snickpic from "./src/assets/snickpick.png";
 
 export const data = [
   {
@@ -60,4 +63,33 @@ export const data = [
     tag: "React",
     desc: "",
   },
+  {
+    id: 7,
+    title: "Flowbase Landing Page",
+    link: "https://denismiso4enko.github.io/project-FlowBase/",
+    code: "https://github.com/DenisMiso4enko/project-FlowBase",
+    image: flowbase,
+    tag: "HTML,CSS",
+    desc: "",
+  },
+  {
+    id: 8,
+    title: "Online Shop Pompeo",
+    link: "https://denismiso4enko.github.io/pompeo/",
+    code: "https://github.com/DenisMiso4enko/pompeo",
+    image: pompeo,
+    tag: "HTML,CSS",
+    desc: "",
+  },
+  {
+    id: 9,
+    title: "Snickpic Landing Page",
+    link: "https://denismiso4enko.github.io/project-S/",
+    code: "https://github.com/DenisMiso4enko/project-S",
+    image: snickpic,
+    tag: "HTML,CSS",
+    desc: "",
+  },
 ];
+
+export const filters = ["All", "React", "JS", "Next", "HTML,CSS"];

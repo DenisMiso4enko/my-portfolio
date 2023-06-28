@@ -1,7 +1,7 @@
-import "./index.scss";
 import { linksData } from "./linksData";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import "./index.scss";
 const Navbar = () => {
   const { t } = useTranslation();
   return (
