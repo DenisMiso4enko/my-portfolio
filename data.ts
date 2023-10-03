@@ -7,6 +7,8 @@ import todo from "./src/assets/todo.png";
 import pompeo from "./src/assets/pompeo.png";
 import flowbase from "./src/assets/flowbase.png";
 import snickpic from "./src/assets/snickpick.png";
+import blog from "./src/assets/blog.png";
+import weather from "./src/assets/weather.png";
 
 export const data = [
   {
@@ -88,6 +90,24 @@ export const data = [
     code: "https://github.com/DenisMiso4enko/project-S",
     image: snickpic,
     tag: "HTML,CSS",
+    desc: "",
+  },
+  {
+    id: 10,
+    title: "Full-stack Blog Next JS",
+    link: "https://github.com/DenisMiso4enko/next-js-blog",
+    code: "https://github.com/DenisMiso4enko/next-js-blog",
+    image: blog,
+    tag: "Next",
+    desc: "",
+  },
+  {
+    id: 11,
+    title: "Weather widget",
+    link: "https://weather-app-ruby-psi-82.vercel.app",
+    code: "https://github.com/DenisMiso4enko/weather-app",
+    image: weather,
+    tag: "React",
     desc: "",
   },
 ];
